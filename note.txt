@@ -7,4 +7,11 @@ converting list or array into a heap:
     n/2-1
 1.convert array into minheap
 2.remove k-1 elements from heap
-   
+
+12.
+sort elements
+result =a[-1]-a[0]
+low tower->+k
+tall tower->-k
+result should not be negative
+compute the possible min difference
