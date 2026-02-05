@@ -1,0 +1,10 @@
+HEAP:
+TWO TYPES: 1.min heap
+           2.max heap
+
+converting list or array into a heap: 
+    n=len(list)
+    n/2-1
+1.convert array into minheap
+2.remove k-1 elements from heap
+   
