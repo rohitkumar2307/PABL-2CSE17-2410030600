@@ -15,3 +15,4 @@ low tower->+k
 tall tower->-k
 result should not be negative
 compute the possible min difference
+to calulate median odd-n//2 even-((n//2-1)-n//2)//2
