@@ -2,11 +2,13 @@ HEAP:
 TWO TYPES: 1.min heap
            2.max heap
 
+
 converting list or array into a heap: 
     n=len(list)
     n/2-1
 1.convert array into minheap
 2.remove k-1 elements from heap
+
 
 12.
 sort elements
@@ -16,3 +18,23 @@ tall tower->-k
 result should not be negative
 compute the possible min difference
 to calulate median odd-n//2 even-((n//2-1)-n//2)//2
+
+//24feb26
+set in python- data structure which is unordered(no index associated), unchangeable but mutable(only add new data)and no duplicates are allowed
+{} for defining set elements {True,2,3,False,[1,2,3],("a","b")}
+constructor newset= set(("apple","kiwi","banana"))
+empty =set() | print(empty) -> set()  **not {}**
+set comprehension
+username={"      Sachin","Rohit    ","Prateek  "}
+x={user.lower().strip() for user in username}  // aslo known as shorthand method
+newset.add("Orange") | newlist(["grapes","strawberry"]) | newset.update(newlist)
+update-add multiple data | add-add single data into a set
+union (|) 
+set.remove()- removes a specific element from a set but if element not found will throw error
+set.discard()-same thing but does'nt throw error
+set.pop()- deletes random element
+set.clear() - empties the set
+del newset-deletes data along with variable
+MAIN functions associated with set UNION (|), INTERSECTION (&), difference(-) , SYMMETRIC difference(^)(deletes common elements from both) SIMILAR TO (XOR) 
+frozonset- a set but like immutable
+newset=frozonset({})
